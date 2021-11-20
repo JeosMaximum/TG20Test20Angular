@@ -1,0 +1,30 @@
+
+<div class="container">
+    <!-- No data message -->
+    <p *ngIf="Product.length <= 0" class="no-data text-center">There is no Customer added yet!</p>
+  
+    <!-- Employee list -->
+    <table width="100%" align="center" class="table table-hover table-striped text-center justify-content-center" *ngIf="Product.length > 0">
+      <thead style="background-color: rgb(14, 98, 255); border-color: rgb(241, 241, 241);" class="table-success">
+        <tr >
+          <th style="border-color: rgb(241, 241, 241);" scope="col">Product ID</th>
+          <th style="border-color: rgb(241, 241, 241);" scope="col">Name</th>
+          <th style="border-color: rgb(241, 241, 241);" scope="col">Weight</th>
+          <th style="border-color: rgb(241, 241, 241);" scope="col">Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="background-color: rgb(241, 241, 241); border-color: rgb(241, 241, 241);" align="center" class="table table-hover table-striped text-center justify-content-center" *ngFor="let product of Product; let i = index">
+          <th scope="row">{{product.ProductId}}</th>
+          <td>{{product.Name}}</td>
+          <td>{{product.Weight}}</td>
+          <td>{{product.Price}}</td>
+          <td class="text-center edit-block">
+            <br><br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  

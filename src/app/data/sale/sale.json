@@ -1,0 +1,82 @@
+[
+    {
+        "SaleID": 1,
+        "CustomerId": 1,
+                "ProductId": 1,
+                "Units": 4,
+                "Name": "Manzana",
+                "PrecioTotal": 42,
+                "PesoTotal": 4
+            },
+            {
+                "ProductId": 2,
+                "Units": 3,
+                "Name": "Platano",
+                "PrecioTotal": 83.4,
+                "PesoTotal": 6
+    },
+    {
+        "SaleID": 2,
+        "CustomerId": 1,
+                "ProductId": 1,
+                "Units": 20,
+                "Name": "Manzana",
+                "PrecioTotal": 210,
+                "PesoTotal": 20
+            },
+            {
+                "ProductId": 3,
+                "Units": 50,
+                "Name": "Leche",
+                "PrecioTotal": 2.500,
+                "PesoTotal": 350
+    },
+    {
+        "SaleID": 3,
+        "CustomerId": 2,
+                "ProductId": 4,
+                "Units": 2,
+                "Name": "Pan",
+                "PrecioTotal": 6,
+                "PesoTotal": 6
+            },
+            {
+                "ProductId": 5,
+                "Units": 1,
+                "Name": "Galletas",
+                "PrecioTotal": 24,
+                "PesoTotal": 10
+    },
+    {
+        "SaleID": 4,
+        "CustomerId": 2,
+                "ProductId": 2,
+                "Units": 400,
+                "Name": "Platano",
+                "PrecioTotal": 11.120,
+                "PesoTotal": 800
+            },
+            {
+                "ProductId": 4,
+                "Units": 2,
+                "Name": "Pan",
+                "PrecioTotal": 6,
+                "PesoTotal": 6
+    },
+    {
+        "SaleID": 5,
+        "CustomerId": 2,
+                "ProductId": 1,
+                "Units": 75,
+                "Name": "Manzana",
+                "PrecioTotal": 787.5,
+                "PesoTotal": 75
+            },
+            {
+                "ProductId": 5,
+                "Units": 125,
+                "Name": "Galletas",
+                "PrecioTotal": 3.000,
+                "PesoTotal": 1.250
+    }
+]

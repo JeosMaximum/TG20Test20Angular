@@ -1,0 +1,30 @@
+
+<div class="container" style="display: flex; overflow-x: auto;">
+    <!-- No data message -->
+    <p *ngIf="Customer.length <= 0" class="no-data text-center">There is no Customer added yet!</p>
+  
+    <!-- Employee list -->
+    <table width="100%"  align="center" class="table table-hover table-striped text-center justify-content-center" *ngIf="Customer.length > 0">
+      <thead style="background-color: rgb(14, 98, 255); border-color: rgb(241, 241, 241);" class="table-success">
+        <tr >
+          <th style="border-color: rgb(241, 241, 241);" scope="col">Customer ID</th>
+          <th style="border-color: rgb(241, 241, 241);" scope="col">Name</th>
+          <th style="border-color: rgb(241, 241, 241);" scope="col">Email Address</th>
+        </tr>
+      </thead>
+      <tbody style="background-color: rgb(241, 241, 241); border-color: rgb(241, 241, 241);" align="center" class="table table-hover table-striped text-center justify-content-center">
+        <tr *ngFor="let customer of Customer; let i = index">
+          <th scope="row">{{customer.CustomerId}}</th>
+          <td>{{customer.Name}}</td>
+          <td>{{customer.EmailAddress}}</td>
+            <br><br>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+  
+
+
+  
